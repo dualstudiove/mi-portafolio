@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dariela Fuenmayor · Performance Creative Designer</title>
+  <meta name="description" content="Performance creative designer for DTC brands across LATAM, the US and the UK. Static ads that turn scrolls into sales.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400..800;1,400..800&family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="logo" href="#home" aria-label="Dariela Fuenmayor, home">Dariela Fuenmayor<i></i></a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span></button>
+      <nav class="main" id="mainnav" aria-label="Main">
+        <a class="nl" data-nav="about" href="#about">About</a>
+        <a class="nl" data-nav="work" href="#work">Work</a>
+        <a class="nl" data-nav="gallery" href="#gallery">Ad Gallery</a>
+        <a class="nl" data-nav="contact" href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Pages are rendered here by js/app.js -->
+  <main id="app"></main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <div>
+        <a class="logo" href="#home">Dariela Fuenmayor<i></i></a>
+        <p>Performance Creative Designer. Remote-first, LATAM time zone, overlap with US and EU hours.</p>
+      </div>
+      <nav aria-label="Footer">
+        <a href="#about">About</a><a href="#work">Work</a><a href="#gallery">Ad Gallery</a><a href="#contact">Contact</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      </nav>
+      <p class="copy">© 2026 Dariela Fuenmayor. Prototype with placeholder content.</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+</body>
+</html>
